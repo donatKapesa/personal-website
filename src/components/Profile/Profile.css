@@ -1,0 +1,46 @@
+.profile-name-and-picture {
+  display: flex;
+  margin-bottom: 30px;
+  padding: 0px 30px;
+}
+
+.profile-image {
+  width: 80px;
+  border-radius: 50%;
+  margin-right: 20px;
+  transition: transform 0.25s ease;
+}
+
+.profile-image:hover {
+  transform: scale(1.1);
+}
+
+.profile-name {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.profile-description {
+  text-align: left;
+  font-size: 20px;
+  padding: 0px 30px;
+}
+
+.links {
+  width: 100%;
+  margin-bottom: 30px;
+  font-size: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.links div i {
+  transition: transform 0.2s ease-in-out;
+  font-size: 30px;
+  padding: 30px;
+}
+
+.links div i:hover {
+  transform: scale(2);
+}

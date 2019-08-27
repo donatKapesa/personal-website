@@ -1,0 +1,6 @@
+#home {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: inherit;
+    width: 100%;
+}
